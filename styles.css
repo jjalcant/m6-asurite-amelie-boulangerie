@@ -1,0 +1,118 @@
+/* For the whole page */
+body {
+    font-family: Verdana, Arial, sans-serif;
+    line-height: 1.5;
+  }
+  
+  /* For the body */
+  body {
+    background-color: #F28095;
+    margin: 0;
+  }
+  
+  /* For the header and footer */
+  header, footer {
+    width: 1000px;
+    margin: 0 auto;
+  }
+  
+  /* For the header */
+  header {
+    height: 150px;
+    background-color: #141a1a;
+    background-image: url(bowl-image.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: white;
+  }
+  
+  /* For the h1 */
+  header h1 {
+    margin: 0;
+    padding-top: 50px;
+    padding-left: 32px;
+  }
+  
+  /* For the div with the id of grid-container */
+  #grid-container {
+    width: 1000px;
+    margin: 0 auto;
+    background-color: #fdfdfd;
+    display: grid;
+    grid-template-columns: 184px 1fr;
+    gap: 0 16px;
+  }
+  
+  /* For the nav */
+  nav {
+    width: 150px;
+    margin-top: 16px;
+  }
+  
+  /* For the list items in the nav */
+  nav li {
+    list-style: none;
+    text-align: center;
+  }
+  
+  /* For the links in the nav */
+  nav a {
+    display: block;
+    padding: 16px;
+    margin: 8px auto;
+    background-color: #e0e5de;
+    color: #141a1a;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  /* For the first link in the nav and for any time the user hovers on one of the links in the nav */
+  nav li:first-child a:hover,
+  nav a:hover {
+    background-color: #f28095;
+  }
+  
+  /* For the main */
+  main {
+    color: #542c1b;
+    padding-bottom: 16px;
+  }
+  
+  /* For the image in the main */
+  main img {
+    float: left;
+  }
+  
+  /* For the paragraph in the main and the ul in the main */
+  main p,
+  main ul {
+    display: inline-block;
+    width: 50%;
+  }
+  
+  /* For the paragraph in the main only */
+  main p {
+    margin-left: 32px;
+  }
+  
+  /* For the ul in the main only */
+  main ul {
+    margin-left: 16px;
+  }
+  
+  /* For the address */
+  address {
+    clear: both;
+    padding-top: 16px;
+  }
+  
+  /* For the footer */
+  footer {
+    background-color: #afaeb4;
+    color: #141a1a;
+    text-align: center;
+    font-style: italic;
+    padding: 8px 0;
+  }
+  
